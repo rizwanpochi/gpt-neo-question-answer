@@ -1,0 +1,9 @@
+version: '1'
+services:
+  onfinance:
+    container_name: onfinance_rizwan
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app/:/app
